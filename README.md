@@ -50,3 +50,9 @@ To use this tool, you must run the main script:
 
 ```bash
 python main.py
+```
+---
+
+## Language
+Currently, only the Chinese version is available. I will add an English version when I have time.
+
