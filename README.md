@@ -42,3 +42,9 @@ conda env create -f environment.yml
 
 # Activate environment
 conda activate contourplot
+
+## Usage
+To use this tool, you must run the main script:
+
+```bash
+python main.py
