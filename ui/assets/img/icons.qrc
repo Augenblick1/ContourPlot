@@ -1,0 +1,70 @@
+<RCC>
+  <qresource prefix="window">
+    <file>w-close.png</file>
+    <file>w-close@2x.png</file>
+    <file>w-logo.png</file>
+    <file>w-logo@2x.png</file>
+    <file>w-minimize.png</file>
+    <file>w-minimize@2x.png</file>
+    <file>w-maximize.png</file>
+    <file>w-maximize@2x.png</file>
+  </qresource>
+  <qresource prefix="menu">
+    <file>m-drillingProjection.png</file>
+    <file>SGEEG-logo.png</file>
+    <file>m-drillingProjection@2x.png</file>
+    <file>m-exportImg.png</file>
+    <file>m-exportImg@2x.png</file>
+    <file>m-generate3dMaps.png</file>
+    <file>m-generate3dMaps@2x.png</file>
+    <file>m-generateContourMaps.png</file>
+    <file>m-generateContourMaps@2x.png</file>
+    <file>m-inputData.png</file>
+    <file>m-inputData@2x.png</file>
+    <file>m-logo.png</file>
+    <file>m-logo@2x.png</file>
+    <file>m-new.png</file>
+    <file>m-new@2x.png</file>
+    <file>m-openProject.png</file>
+    <file>m-saveProject.png</file>
+    <file>m-saveProject@2x.png</file>
+  </qresource>
+  <qresource prefix="down">
+    <file>from-left.png</file>
+    <file>from-up.png</file>
+    <file>from-front.png</file>
+    <file>b-back.png</file>
+    <file>b-back@2x.png</file>
+    <file>b-curve.png</file>
+    <file>b-curve@2x.png</file>
+    <file>b-file.png</file>
+    <file>b-file@2x.png</file>
+    <file>b-fullScreen.png</file>
+    <file>b-fullScreen@2x.png</file>
+    <file>b-homePage.png</file>
+    <file>b-homePage@2x.png</file>
+    <file>b-left.png</file>
+    <file>b-left@2x.png</file>
+    <file>b-narrow.png</file>
+    <file>b-narrow@2x.png</file>
+    <file>b-enlarge.png</file>
+    <file>b-enlarge@2x.png</file>
+    <file>b-right.png</file>
+    <file>b-right@2x.png</file>
+    <file>b-Z.png</file>
+    <file>b-Z@2x.png</file>
+  </qresource>
+  <qresource prefix="left">
+    <file>l-close.png</file>
+    <file>l-close@2x.png</file>
+    <file>l-group.png</file>
+    <file>l-group@2x.png</file>
+    <file>l-tick.png</file>
+  </qresource>
+  <qresource prefix="else">
+    <file>dropDown.png</file>
+    <file>dropDown@2x.png</file>
+    <file>slidingPoint.png</file>
+    <file>slidingPoint@2x.png</file>
+  </qresource>
+</RCC>

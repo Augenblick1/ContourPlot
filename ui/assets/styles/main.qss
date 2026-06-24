@@ -1,0 +1,342 @@
+/* 全局样式 */
+* {
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+    color: black;
+}
+
+/* 主窗口 */
+QMainWindow {
+    background-color: #f5f5f5;
+}
+
+/* 菜单栏 */
+QMenuBar {
+    background: qlineargradient(
+        x1:0, y1:0, x2:0, y2:1,
+        stop:0 #ffffff,
+        stop:0.5 #f2f4f6,
+        stop:1 #e6e8ec
+    );
+}
+
+QMenuBar::item {
+    margin-left: 20px;
+    border: none;
+    padding: 5px 10px;
+    background-color: transparent;
+}
+
+QMenuBar::item:selected {
+    background-color: #e0e0e0;
+}
+
+/* 弹出菜单 */
+QMenu {
+    background-color: #ffffff; /* 菜单背景为白色 */
+    color: #000000; /* 菜单文本为黑色 */
+    border: 1px solid #cccccc; /* 菜单边框 */
+    padding: 5px 0;
+}
+
+QMenu::item {
+    padding: 5px 20px;
+    background-color: transparent;
+}
+
+QMenu::item:selected {
+    background-color: #e0e0e0; /* 选中项背景颜色 */
+    color: #000000; /* 选中项文本颜色 */
+}
+
+QMenu::separator {
+    height: 1px;
+    background-color: #cccccc;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* 工具栏 */
+QToolBar {
+    background: qlineargradient(
+        x1:0, y1:0, x2:0, y2:1,
+        stop:0 #ffffff,
+        stop:0.5 #f2f4f6,
+        stop:1 #eceeef
+    );
+    border: none;
+    spacing: 20px;
+    padding: 5px;
+}
+
+QToolButton {
+    margin-left: 5px;
+    padding: 3px;
+    border: none;
+}
+
+QToolButton:hover {
+    background-color: #e0e0e0;
+    border-radius: 2px;
+}
+
+/* 停靠窗口 */
+QDockWidget {
+    border: 1px solid #e0e0e0;
+    titlebar-close-icon: url(close.png);
+}
+
+QDockWidget::title {
+    background-color: #f0f0f0;
+    padding: 5px;
+}
+
+/*复选框样式*/
+QCheckBox {
+    spacing: 5px;
+    padding: 5px;
+}
+
+QCheckBox::indicator {
+    width: 16px;
+    height: 16px;
+    border: 1px solid #999999;
+    border-radius: 3;
+    background-color: white;
+}
+
+QCheckBox::indicator:checked {
+    background-color: #1874f9;      /* 选中时的背景颜色 */
+    image: url(:/left/l-tick.png); /* 对勾图标的路径 */
+    background-repeat: no-repeat;   /* 防止图标重复 */
+    background-position: center;    /* 图标居中显示 */
+}
+
+/* 3D 和 剖面 Tab 页内容区域 */
+#tabWidget_2 QWidget {
+    background-color: #ffffff;
+    border: none;
+    padding: 10px;
+}
+
+/* QDockWidget 标题栏 */
+QDockWidget::title {
+    background-color: #f6f9ff;
+    border-bottom: 1px solid #dcdcdc;
+    font-weight: bold;
+}
+
+/* QTabWidget 标签页 */
+QTabWidget::pane {
+    border: none;
+    background-color: #ffffff;
+}
+
+QTabBar::tab {
+    background: #f3f3f3;
+    width: 72px;
+    color: black;
+    padding: 10px;
+    margin-right: 2px;
+    border-radius: 3px;
+}
+
+/*列表控件样式*/
+QTabBar::tab:selected {
+    background: #ffffff;
+    font-weight: bold;
+}
+
+QListWidget {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+}
+
+QListWidget::item {
+    padding: 5px 10px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+QListWidget::item:selected {
+    background-color: #bae7ff;
+    color: #000000;
+}
+
+/* 添加列表控件样式 */
+QListWidget::indicator {
+    width: 16px;
+    height: 16px;
+    border: 1px solid #999999;
+    border-radius: 3px;
+    background-color: white;
+}
+
+QListWidget::indicator:checked {
+    background-color: #1874f9;
+    image: url(:/left/l-tick.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+QListWidget::indicator:unchecked {
+    background-color: white;
+}
+
+/*统一QPushButton的外观*/
+QPushButton {
+    background-color: #007acc;
+    color: white;
+    font-size: 10px;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+QPushButton:hover {
+    background-color: #005f99;
+}
+
+QPushButton:pressed {
+    background-color: #004080;
+}
+
+
+/*输入控件样式*/
+QLineEdit, QPlainTextEdit {
+    background-color: #f3f3f3;
+    border-radius: 4px;
+}
+
+QLineEdit:focus, QPlainTextEdit:focus {
+    border: 1px solid #007acc;
+    outline: none;
+}
+
+/* 底部工具栏样式 */
+#bottom_toolbar {
+    background-color: white;
+    border-radius: 15px;
+    border-top: none;
+    padding: 5px 10px;
+}
+
+#bottom_toolbar QToolButton {
+    background-color: #f3f3f3;
+    border: none;
+    border-radius: 4px;
+    margin: 2 2px;
+}
+
+#bottom_toolbar QToolButton:hover {
+    background-color: rgba(0, 122, 204, 0.1);
+}
+
+#bottom_toolbar QToolButton:pressed {
+    background-color: rgba(0, 122, 204, 0.2);
+}
+
+#bottom_toolbar QToolButton:checked {
+    background-color: #e6f7ff;
+    border: 1px solid #91d5ff;
+}
+
+/* 底部工具栏图标大小 */
+#bottom_toolbar QToolButton {
+    qproperty-iconSize: 32px 32px;
+}
+
+#bottom_toolbar QLineEdit {
+    background-color: #f3f3f3;
+    border: 1px solid #cccccc;
+    font-size: 16px;
+    border-radius: 4px;
+    padding: 3px 10px;
+    min-width: 60px;
+    max-width: 120px;
+}
+
+/* 底部工具栏提示文本样式 */
+QToolTip {
+    background-color: #f3f3f3;
+    color: #333333;
+    border: 1px solid #e0e0e0;
+    padding: 5px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+/* 下拉 */
+#bottom_toolbar QComboBox {
+    background-color: #f3f3f3;
+    border: 1px solid #cccccc;
+    font-size: 16px;
+    border-radius: 4px;
+    padding: 3px 10px;
+    min-width: 120px;
+    max-width: 200px;
+}
+
+#bottom_toolbar QComboBox:hover {
+    border: 1px solid #007acc;
+}
+
+#bottom_toolbar QComboBox:on {
+    background-color: #e6f7ff;
+}
+
+#bottom_toolbar QComboBox::drop-down {
+    border: none;
+    width: 20px;
+}
+
+#bottom_toolbar QComboBox::down-arrow {
+    image: url(:else/dropDown.png);
+    width: 12px;
+    height: 12px;
+}
+
+/* 填充颜色下拉框样式 */
+#comboBox {
+    background-color: #f3f3f3;
+    border: 1px solid #cccccc;
+    font-size: 14px;
+    border-radius: 4px;
+    padding: 3px 10px;
+    min-width: 120px;
+    max-width: 200px;
+}
+
+#comboBox:hover {
+    border: 1px solid #007acc;
+}
+
+#comboBox:on {
+    background-color: #e6f7ff;
+}
+
+#comboBox::drop-down {
+    border: none;
+    width: 20px;
+}
+
+#comboBox::down-arrow {
+    image: url(:else/dropDown.png);
+    width: 12px;
+    height: 12px;
+}
+
+/* 下拉列表样式 */
+#comboBox QAbstractItemView {
+    background-color: white;
+    border: 1px solid #cccccc;
+    selection-background-color: #e6f7ff;
+    selection-color: black;
+}
+
+#comboBox QAbstractItemView::item {
+    padding: 5px 10px;
+}
+
+#comboBox QAbstractItemView::item:hover {
+    background-color: #f5f5f5;
+}
