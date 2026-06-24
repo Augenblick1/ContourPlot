@@ -1,0 +1,17 @@
+name: geo_env
+channels:
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
+  - https://repo.anaconda.com/pkgs/msys2
+dependencies:
+  - python=3.12
+  - matplotlib
+  - numpy
+  - pandas
+  - scipy
+  - pyside6
+  - pyvista
+  - pyvistaqt
+  - scikit-learn
+  - adjusttext
+prefix: D:\ProgramData\anaconda3\envs\geo_env
